@@ -1,4 +1,4 @@
-
+/* LeftPage */
 .leftPage {
     font-family:Arial, Helvetica, sans-serif ;
     width: 20%;
@@ -52,4 +52,81 @@
     color: yellow;
     box-shadow: 1px 0.5px 3px rgba(0, 0, 0, 0.3)   ;
 }
+/* rightPage */
+.rightPage{
+    font-family:Arial, Helvetica, sans-serif ;
+    width: 75%;
+    height: 100%;
+    position: absolute;
+	display: flex;
+    top: 0px;
+    bottom: 0px;
+    left: 20%;
+    background-color: #f5f6f7;
+}
+.rightPage{
+    width: 95%;
+    display: flex;
+}
+/* left header of the right page  */
+.leftHeader {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    font-size: 20px;
+  }
+  
+.leftHeader p {
+    float: left;
+}
+/* right header of the right page  */
+.rightHeader{
+    float: right;
+}
+.rightHeader p img{
+    width: 35%;
+    border: 1px solid;
+    border-radius: 100%;
+    margin-top: -8px;
+    margin-left: 30px;
+}
+/* right header of the right page  */
+.rightBody {
+    background-color: white;
+    background-size: cover;
+    margin-top: 5%;
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 1) ;
+}
+.leftForm{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    background-size: cover;
+}
+.leftForm p, .rightForm p{
+    text-align: center;
+}
+.rightForm{
+    height: 100%;
+    float: right;
+    background-size: cover;
+}
 
+.buttonInput{
+    display: none;
+    margin-top: 35% ;
+    width: 80%;
+    height: 50px;
+}
+@media screen and (max-height: 550px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 12px;}
+}
