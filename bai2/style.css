@@ -91,20 +91,27 @@
 /* right header of the right page  */
 .rightBody{
     position: absolute;
-    top: 50px;
-    width: 90%;
+    top: 60px;
+    width: 80%;
     font-size: 20px;
     background-color: white;
+    border-radius: 10px;
 }
 /* left body */
 .leftForm {
     width: 50%;
-    height: 100%;
+    height: 90%;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
 }
+.left_title{
+    margin-left: 35%;
+}
 .form_ipt{
     font-size: 16px;
+}
+.form_ipt ul label{
+    font-size: 12px;
 }
 .leftForm ul{
    margin: 20px 0px 20px 0px;
@@ -115,21 +122,38 @@
 }
 .ipt_name{
     width: 60%;
+    padding: 5px 0px 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #d9dbdc;
 }
 .combobox{
     width: 62%;
+    padding: 5px 17px 5px 3px;
+    border: 1px solid #d9dbdc ;
+    border-radius: 5px;
+    background-color: #f5f6f7;
 }
 .ipt_adress{
     width: 60%;
+    padding: 5px 0px 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #d9dbdc;
 }
 .ipt_zipcode{
     width: 60%;
+    padding: 5px 0px 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #d9dbdc;
+    border-radius: 5px;
 }
 .ipt_location{
     width: 60%;
+    padding: 5px 0px 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #d9dbdc;
 }
 .checkbox_yes{
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 3%;
 }
 .checkbox_no{
@@ -148,19 +172,43 @@
     text-align: center;
 }
 .maps-wrapper{
-    display: block;
-    padding: 15px 5px 12px 12px;
-    border: 3px solid;
+    display: flex;
+    padding: 10px 12px 10px 12px;
+    border: 2px solid #e0e2e3;
     border-radius: 10px;
     margin-right: 15px;
-
 }
-/**/
-.buttonInput{
-    display: none;
-    margin-top: 35% ;
-    width: 80%;
-    height: 50px;
+/*button*/
+.rightButton{
+    display: flex;
+    position: fixed;
+    margin-top: 37%;
+    width: 35%;
+    font-size: 20px;
+}
+.left{
+    width:50%;
+    float: right;
+    margin-left: 350px;
+}
+.left input{
+    width: 100px;
+    height: 35px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    color: #336857;
+}
+.right input{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: #336857;
+    background-color: #ffeb3b;
+}
+.right{
+    width:50%;
+    float: left;
+    margin-left: 10px;
 }
 @media screen and (max-height: 550px) {
 .sidebar {padding-top: 15px;}
