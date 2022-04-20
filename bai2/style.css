@@ -177,40 +177,50 @@
     border: 2px solid #e0e2e3;
     border-radius: 10px;
     margin-right: 15px;
+    overflow: hidden;
 }
 /*button*/
 .rightButton{
-    display: flex;
-    position: fixed;
-    margin-top: 37%;
-    width: 35%;
+    position: absolute;
+    top: 70%;
+    width: 90%;
     font-size: 20px;
-}
-.left{
-    width:50%;
-    float: right;
-    margin-left: 350px;
-}
-.left input{
-    width: 100px;
-    height: 35px;
-    /* border: 1px solid white; */
     border-radius: 10px;
-    color: #336857;
+    margin-left: 24%;
 }
-.right input{
-    width: 100px;
-    height: 35px;
-    border-radius: 10px;
+.rightButton button {
+    margin-left: 15px;
+    width: 150px;
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
     color: #336857;
+    border: 3px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(62, 60, 60, 0.5);
+}
+.rightButton .button8{
     background-color: #ffeb3b;
 }
-.right{
-    width:50%;
-    float: left;
-    margin-left: 10px;
+.rightButton button:hover {box-shadow: 0 5px #666;}
+
+.rightButton button:active {
+box-shadow: 0 5px #666;
+transform: translateY(4px);
 }
 @media screen and (max-height: 550px) {
 .sidebar {padding-top: 15px;}
 .sidebar a {font-size: 12px;}
 }
+@media screen and (min-height: 706px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 12px;}
+    }
+    /* .rightButton {
+        top: 80%;
+        right: -2.5%;
+    } */
