@@ -1,119 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Test-Challenge</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="page">
-        <div class="leftPage">
-            <!-- The sidebar -->
-            <div class="sidebar">
-                <p>GETJ<i class="fa fa-fw fa-search"></i>B</p>
-                <a href="#home"><i class="fa fa-fw fa-th-large"></i> Trang chủ</a>
-                <a href="#services"><i class="fa fa-fw fa-briefcase"></i> Yêu cầu công việc</a>
-                <a href="#clients"><i class="fa fa-fw fa-refresh"></i> Yêu cầu đổi ca</a>
-                <a href="#clients"><i class="fa fa-fw fa-users"></i> Người tuyển dụng</a>
-                <a href="#contact"><i class="fa fa-fw fa-file-text-o"></i> Báo cáo</a>
-                <a class="active" href="#contact"><i class="fa fa-fw fa-map-marker"></i> Địa điểm</a>
-            </div> 
+      <div class="leftPage">
+        <!-- The sidebar -->
+        <div class="sidebar">
+          <p>GETJ<i class="fa fa-fw fa-search"></i>B</p>
+          <a href="#home"><i class="fa fa-fw fa-th-large"></i> Trang chủ</a>
+          <a href="#services"
+            ><i class="fa fa-fw fa-briefcase"></i> Yêu cầu công việc</a
+          >
+          <a href="#clients"
+            ><i class="fa fa-fw fa-refresh"></i> Yêu cầu đổi ca</a
+          >
+          <a href="#clients"
+            ><i class="fa fa-fw fa-users"></i> Người tuyển dụng</a
+          >
+          <a href="#contact"><i class="fa fa-fw fa-file-text-o"></i> Báo cáo</a>
+          <a class="active" href="#contact"
+            ><i class="fa fa-fw fa-map-marker"></i> Địa điểm</a
+          >
         </div>
-        <div class="rightPage">
-            <div class="leftHeader">
-                <p><i class="fa fa-fw fa-map-marker"></i> Thêm địa chỉ</p>
-                <div class="rightHeader">
-                    <p><i class="fa fa-fw fa fa-bell"></i></p>
-                    <p><img src="/bai2/LogoAlesta-removebg-preview.png" alt=""></p>
-                </div>
-            </div>
-            <div class="rightBody">
-                <div class="leftForm">
-                    <p>Địa điểm làm việc</p>
+      </div>
+      <div class="rightPage">
+        <div class="leftHeader">
+          <p><i class="fa fa-fw fa-map-marker"></i> Thêm địa chỉ</p>
+          <div class="rightHeader">
+            <p><i class="fa fa-fw fa fa-bell"></i></p>
+            <p><img src="/bai2/6.jpg" alt="" /></p>
+          </div>
+        </div>
+        <div class="rightBody">
+          <div class="leftForm">
+            <p class="left_title">Địa điểm làm việc</p>
+            <form class="form_ipt">
                 <ul>
-                    <label for="html">Tên</label>
-                    <input type="text" id="html" name="name" value="HTML"><br>
+                    <label for="fname">Tên</label>&nbsp
+                    <input type="text" placeholder="Tên" id="fname" class="ipt_name" /><br />
                 </ul>
-                <ul>
-                    <label for="html">Quốc gia</label>
-                        <select name="select1" id="select1" class="combobox">
-                                <option value="1">Item 1</option>
-                                <option value="2">Item 2</option>
-                                <option value="3">Item 3</option>
-                                <option value="4">Item 4</option>
-                                <option value="5">Item 5</option>
-                        </select><br>
-                </ul>
-                <ul>
-                    <label for="html">Thành phố</label>
-                    <select name="select1" id="select1" class="combobox">
-                        <option value="1">Item 1</option>
-                        <option value="2">Item 2</option>
-                        <option value="3">Item 3</option>
-                        <option value="4">Item 4</option>
-                        <option value="5">Item 5</option>
-                </select><br>
-                </ul>
-                <ul>
-                    <label for="html">Quận/huyện</label>
-                    <select name="select1" id="select1" class="combobox">
-                        <option value="1">Item 1</option>
-                        <option value="2">Item 2</option>
-                        <option value="3">Item 3</option>
-                        <option value="4">Item 4</option>
-                        <option value="5">Item 5</option>
-                </select><br>
-                </ul>
-                <ul>
-                    <label for="html">Phường/xã</label>
-                    <select name="select1" id="select1" class="combobox">
-                        <option value="1">Item 1</option>
-                        <option value="2">Item 2</option>
-                        <option value="3">Item 3</option>
-                        <option value="4">Item 4</option>
-                        <option value="5">Item 5</option>
-                </select><br>
-                </ul>
-                <ul>
-                    <label for="html">Địa chỉ</label>
-                    <input type="text" id="html" name="fav_language" value="HTML"><br>
-                </ul>
-                <ul>
-                    <label for="html">Mã bưu chính</label>
-                    <input type="text" id="html" name="fav_language" value="HTML"><br>
-                </ul>
-                <ul>
-                    <label for="html">Hướng dẫn đường đi</label>
-                    <input type="text" id="html" name="fav_language" value="HTML"><br>
-                </ul>
-                <ul>
-                    <label for="html">Chia sẻ</label>
-                    
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Có</label>
-
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">Không</label>
-
-                </ul>
-                </div>
-                <div class="rightForm">
-                    <p>Bản đồ</p>
-                    <p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3271.6367012797778!2d106.7034268841832!3d10.823026321550484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1650385393111!5m2!1svi!2s" width="450" height="320" style="border:2px double yellow; border-radius: 10px; background-size: cover;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </p>
-                </div>
-            </div>
-            <!-- <div class="buttonInput">
                 
-            </div> -->
+                <ul>
+                    <label for="country">Quốc gia</label>&nbsp
+                    <select name="slc_country" id="country" class="combobox">
+                        <option value="1">Việt Nam</option></select
+                    ><br />
+                </ul>
+                <ul>
+                    <label for="city">Thành phố</label>&nbsp
+                <select name="slc_city" id="city" class="combobox">
+                    <option value="1">Chọn</option></select
+                ><br />
+                </ul>
+                <ul>       
+                <label for="district">Quận/huyện</label>&nbsp
+                <select name="slc_country" id="district" class="combobox">
+                    <option value="1">Chọn</option></select
+                ><br />
+                </ul>
+                <ul>
+                    <label for="wards">Phường/xã</label>&nbsp
+                    <select name="slc_country" id="wards" class="combobox">
+                    <option value="1">Chọn</option>
+                    </select><br />
+                </ul>
+                <ul>
+                    <label for="adress">Địa chỉ</label>&nbsp
+                    <input type="text" id="adress" class="ipt_adress" placeholder="Địa chỉ" /><br />
+                </ul>
+                <ul>
+                    <label for="zip_code">Mã bưu chính</label>&nbsp
+                <input type="text" id="zip_code" class="ipt_zipcode"  placeholder="Mã bưu chính" /><br />
+                </ul>
+                <ul>
+                <label for="location">Hướng dẫn đường đi</label>&nbsp
+                <textarea style="resize: none;" id="location" class="ipt_location" class="ipt_location" placeholder="Hướng dẫn đường đi"  cols="0" rows="3"></textarea><br />
+                </ul>
+                <ul class="share">
+                    <label>Chia sẻ</label>&nbsp
+                        <input type="checkbox" id="yes" class="checkbox_yes" value="1"/>
+                        <label label for="yes"> Có</label>
+
+                        <input type="checkbox" id="no" class="checkbox_no" value="0"/>
+                        <label label for="no"> Không</label>
+                </ul>
+            </form>
+          </div>
+          <div class="rightForm">
+            <p>Bản đồ</p>
+            <div class="maps-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3271.6367012797778!2d106.7034268841832!3d10.823026321550484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1650385393111!5m2!1svi!2s" width="480px" height="350" frameborder="0" style="border:2px solid yellow; border-radius: 10px;"></iframe>
+            </div>
+            </p>
+          </div>
         </div>
-
+        <div class="buttonInput">
+          <div class="leftButton">
+            <input type="button" value="Hủy" />
+          </div>
+          <div class="rightButton"></div>
+        </div>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
